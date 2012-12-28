@@ -1,10 +1,10 @@
-argparse
+argkit
 =====
-simple os.Args wrapper that makes it easy to match arguments, values and indices
+parse command line args, values, indices
 <pre>
 	<code>
-		import "argparse"
-		var psr = NewArgParser()
+		import "argkit"
+		var psr = NewArgStore()
 		...
 	</code>
 </pre>
